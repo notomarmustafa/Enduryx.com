@@ -395,3 +395,10 @@
     margin-right: 80px;
   }
 }
+
+@media (max-width: 295px) {
+  .privacy-body .p-text {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+} 
