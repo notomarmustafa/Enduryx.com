@@ -312,20 +312,6 @@
   
   /* Main Texts In All The Pages Ending */
   
-  
-  
-  
-  /* Random Stuff */
-  
-  /* .sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-color: black;
-    padding: 50px;
-    font-size: 20px;
-  } */
-  
 
   /*Privacy Policy Body*/
 
@@ -342,6 +328,70 @@
   }
 
   .privacy-body .p-text{
+    margin: 0 auto 360px auto;
     margin-left: 500px;
     margin-right: 500px;
   }
+
+@media (max-width: 1496px) {
+  .privacy-body .p-text {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .privacy-body .p-text {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .privacy-body .p-text {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .privacy-body .p-text {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .privacy-body .p-text {
+   margin-left: 200px;
+   margin-right: 200px;
+  }
+}
+
+@media (max-width: 580px) {
+  .privacy-body .p-text {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+
+@media (max-width: 512px) {
+  .privacy-body .p-text {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 425px) {
+  .privacy-body .p-text {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 390px) {
+  .privacy-body .p-text {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
