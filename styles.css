@@ -31,12 +31,12 @@
   
   a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
     font-size: 1rem;
   }
   
   a:hover {
-    color: #000;
+    color: #fff;
   }
   
   /* HEADER */
@@ -326,3 +326,21 @@
     font-size: 20px;
   } */
   
+
+  /*Privacy Policy Body*/
+
+  .privacy-body{
+    color: #000;
+  }
+  
+  .privacy-body h1{
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    color: #000;
+  }
+
+  .privacy-body .p-text{
+    margin-left: 500px;
+    margin-right: 500px;
+  }
