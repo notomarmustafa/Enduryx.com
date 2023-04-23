@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
 }
 body {
     height: 200vh;
@@ -119,28 +120,28 @@ button {
     height: 200vh;
     background-size: cover;
     background-position: center;
-  }
+}
   
-  .list-hide {
+.list-hide {
     list-style: none;
-  }
+}
   
-  a {
+a {
     text-decoration: none;
     color: #fff;
     font-size: 1rem;
-  }
+}
   
-  a:hover {
+a:hover {
     color: #fff;
-  }
+}
 header {
     position: relative;
     padding: 0 2rem;
     margin-top: 50px;
-  }
+}
   
-  .navbar {
+.navbar {
     width: 100%;
     height: 60px;
     max-width: 1200px;
@@ -148,27 +149,27 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
+}
   
-  .navbar .logo a {
+.navbar .logo a {
     font-size: 1.5rem;
     font-weight: bold;
-  }
+}
   
-  .navbar .link {
+.navbar .link {
     display: flex;
     gap: 2rem;
     margin-top: 27px;
-  }
+}
   
-  .navbar .toggle_btn {
+.navbar .toggle_btn {
     color: #fff;
     font-size: 1.5rem;
     cursor: pointer;
     display: none;
-  }
+}
   /* DOWNLOAD BUTTON (IF NEEDED) */
-  .action_btn {
+.action_btn {
     background-color: #000;
     color: #fff;
     padding: 0.5rem 1rem;
@@ -180,22 +181,18 @@ header {
     cursor: pointer;
     transition: scale 0.2 ease;
     margin-top: 10px;
-  }
+}
   
-  .action_btn:hover {
+.action_btn:hover {
     scale: 1.05;
     color:#fff;
-  }
+}
   
-  .action_btn:active {
+.action_btn:active {
     scale: 0.95;
-  }
-
-
-
-
-   /* DROPDOWN MENU */
-   .dropdown_menu {
+}
+  /* DROPDOWN MENU */
+.dropdown_menu {
     display: none;
     position: absolute;
     right: 2rem;
@@ -207,27 +204,27 @@ header {
     border-radius: 10px;
     overflow: hidden;
     transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  }
+}
   
   /* DROP DOWN MENU HEIGHT*/
-  .dropdown_menu.open {
+.dropdown_menu.open {
     height: 185px;
-  }
+}
   
-  .dropdown_menu li {
+.dropdown_menu li {
     padding: 0.7rem;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
   
-  .dropdown_menu .action_btn {
+.dropdown_menu .action_btn {
     width: 100%;
     display: flex;
     justify-content: center;
-  }
+}
   
-  /* RESPONSIVE DESIGN */
+/* RESPONSIVE DESIGN */
   @media(max-width: 1024px) {
     .navbar .link,
     .navbar .action_btn{
@@ -253,18 +250,94 @@ header {
   }
   
   
-  .question {
+.question {
     margin-left: 25px;
-  }
+}
   
-  .main-text {
+.main-text {
     
     margin-left: 50px;
     color: black;
   
+}
+/*FOOTER*/
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.footer {
+  background-color: #24262b;
+  padding: 70px 0;
+  margin-top: 90vh;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+/*FOOTER RESPONSIVE*/
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
   }
-  
-  body{
-    min-height: 100vh;
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
   }
-  
+}
