@@ -10,21 +10,10 @@
   }
   
   body {
-  background-color: #000;
-  background-image: url(background.jpg);
   background-size: cover;
   background-position: center;
   margin-top: 20px;
   }
-  
-  .dark-mode {
-    background-image: url(background2.jpg);
-    background-color: #fff;
-    height: 200vh;
-    background-size: cover;
-    background-position: center;
-  }
-  
   .list-hide {
     list-style: none;
   }
