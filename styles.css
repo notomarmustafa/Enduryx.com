@@ -187,7 +187,7 @@
   /*Privacy Policy Body*/
 
   .privacy-body{
-    color: #000;
+    color: white;
     line-height: 1.7em;
   }
   
@@ -195,7 +195,7 @@
     text-align: center;
     justify-content: center;
     margin-top: 100px;
-    color: #000;
+    color: white;
   }
 
   .privacy-body .p-text{
