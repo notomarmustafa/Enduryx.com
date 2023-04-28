@@ -5,9 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    height: 200vh;
     background-color: #000;
-    background-image: url(background.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -114,14 +112,6 @@ button {
 }
 /* HEADER */
 
-.dark-mode {
-    background-image: url(background2.jpg);
-    background-color: #fff;
-    height: 200vh;
-    background-size: cover;
-    background-position: center;
-}
-  
 .list-hide {
     list-style: none;
 }
