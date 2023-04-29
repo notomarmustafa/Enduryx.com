@@ -489,3 +489,23 @@ button {
 .register p a:hover {
     text-decoration: underline;
 }
+
+/* Terms and Conditions */
+
+.terms-body{
+  color: white;
+  line-height: 1.7em;
+}
+
+.terms-body h1{
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+  color: white;
+}
+
+.terms-body .t-text{
+  margin: 0 auto 360px auto;
+  margin-left: 500px;
+  margin-right: 500px;
+}
