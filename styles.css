@@ -509,3 +509,9 @@ button {
   margin-left: 500px;
   margin-right: 500px;
 }
+.terms-body .space-1 {
+  margin-top: 20px;
+}
+.terms-body .space-2 {
+  margin-top: 50px;
+}
