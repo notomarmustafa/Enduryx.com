@@ -445,10 +445,7 @@ body{
   text-align: center;
   font-size: 12px;
   margin-top: 20px;
-}
-.copyright-text:hover {
-  color: #ffffff;
-}
+
 .row {
   display: flex;
   flex-wrap: wrap;
