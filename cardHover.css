@@ -1,0 +1,23 @@
+* {
+    background-color: aqua;
+}
+
+.container {
+    display: flex;
+    margin-top: 100px;
+}
+
+.card {
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 200px;
+    background-color: #fff;
+    flex: 1;
+    transition: .3s all ease;
+    text-align: center;
+}
+
+.card:hover {
+    flex: 2;
+    background-color: rgba(207, 207, 207);
+}
