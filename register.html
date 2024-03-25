@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form login</title>
     <link rel="stylesheet" href="assists/css/login.css">
-    <link rel="shortcut icon" type="x-icon" href="assists/img/Hoppies-transparent.png">
 </head>
 
 <body>
@@ -16,18 +15,17 @@
                 <div class="page-box">
                     <div class="login-title">
                         <h2>Login</h2>
-                        <p>Please login to continue</p>
+                        <p>Please login to use the platform</p>
                     </div>
                     <div class="page email-page">
+                        <div class="input-box">
+                            <input type="name" class="name" autofocus required>
+                            <label>Enter your name</label>
+                        </div>
                         <div class="input-box">
                             <input type="email" class="email" autofocus required>
                             <label>Enter your email</label>
                         </div>
-                        <div class="forgot">
-                            <a href="#">Forgot email?</a>
-                        </div>
-                    </div>
-                    <div class="guest-mode">
                     </div>
                     <div class="btn-box">
                     </div>
@@ -35,18 +33,16 @@
                 <div class="page email-page">
                     <div class="input-box">
                         <input type="password" class="password" autofocus required>
-                        <label>Enter your password</label>
+                        <label>Write your password</label>
                     </div>
-                    <div class="forgot">
-                        <a href="#">Forgot passowrd</a>
+                    <div class="input-box">
+                        <input type="cpassword" class="cpassword" autofocus required>
+                        <label>Rewrite your password</label>
                     </div>
                 </div>
-                <div class="guest-mode">
-                    <p>Not your computer? Use guest mode to login privately.</p>
-                    <a href="#">Learn more</a>
-                </div>
+
                 <div class="btn-box button-container">
-                    <p style="font-size: 14.5px; color: #fff; text-decoration: none;">Need an account?&nbsp;<a href="register.html">Sign up</a></p>
+                    <a href="login.html">Already have an account? Login</a>
                     <button class="btn-next">Next</button>
                 </div>
             </form>
