@@ -10,9 +10,23 @@
 </head>
 
 <body>
+    <!-- <div class="alert-btn">
+        <p class="alert">Invalid Email!</p>
+    </div> -->
+
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        Invalid Credentials
+      </div>
+    <div class="alert success">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        Registered Successfully
+      </div>
+
+
     <div class="container">
         <div class="login-box">
-            <form action="submit" method="POST">
+            <form action="" method="post">
                 <div class="page-box">
                     <div class="login-title">
                         <h2>Register</h2>
@@ -20,25 +34,30 @@
                     </div>
                     <div class="page email-page">
                         <div class="input-box">
-                            <input type="name" class="name" autofocus required>
+                            <input type="name" name="name" autofocus required>
                             <label>Enter your name</label>
                         </div>
                         <br>
                         <div class="input-box">
-                            <input type="email" class="email" autofocus required>
+                            <input type="email" name="email" autofocus required>
                             <label>Enter your email</label>
+                        </div>
+                        <br>
+                        <div class="input-box">
+                            <input type="number" name="number" autofocus required>
+                            <label>Enter your number</label>
                         </div>
                         <br>
                     </div>
                 </div>
                 <div class="page email-page">
                     <div class="input-box">
-                        <input type="password" class="password" autofocus required>
+                        <input type="password" name="password" autofocus required>
                         <label>Create your password</label>
                     </div>
                     <br>
                     <div class="input-box">
-                        <input type="password" class="cpassword" autofocus required>
+                        <input type="password" name="cpassword" autofocus required>
                         <label>Confirm password</label>
                     </div>
                     <br>
