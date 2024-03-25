@@ -4,50 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form login</title>
-    <link rel="stylesheet" href="assists/css/login.css">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="assists/css/LandR/register.css">
+    <link rel="shortcut icon" type="x-icon" href="assists/img/Hoppies-transparent.png">
 </head>
 
 <body>
     <div class="container">
         <div class="login-box">
-            <form action="#">
+            <form action="submit" method="POST">
                 <div class="page-box">
                     <div class="login-title">
-                        <h2>Login</h2>
-                        <p>Please login to use the platform</p>
+                        <h2>Register</h2>
+                        <p>Please create an account</p>
                     </div>
                     <div class="page email-page">
                         <div class="input-box">
                             <input type="name" class="name" autofocus required>
                             <label>Enter your name</label>
                         </div>
+                        <br>
                         <div class="input-box">
                             <input type="email" class="email" autofocus required>
                             <label>Enter your email</label>
                         </div>
-                    </div>
-                    <div class="btn-box">
+                        <br>
                     </div>
                 </div>
                 <div class="page email-page">
                     <div class="input-box">
                         <input type="password" class="password" autofocus required>
-                        <label>Write your password</label>
+                        <label>Create your password</label>
                     </div>
+                    <br>
                     <div class="input-box">
-                        <input type="cpassword" class="cpassword" autofocus required>
-                        <label>Rewrite your password</label>
+                        <input type="password" class="cpassword" autofocus required>
+                        <label>Confirm password</label>
                     </div>
+                    <br>
                 </div>
 
                 <div class="btn-box button-container">
-                    <a href="login.html">Already have an account? Login</a>
-                    <button class="btn-next">Next</button>
+                    <p style="font-size: 14.5px; color: #fff; text-decoration: none;">Already have an account?&nbsp;<a href="login.html">Login</a></p>
+                    <button class="btn-next">Create</button>
                 </div>
             </form>
         </div>
     </div>
-    <script src="assists/js/login.js"></script>
+    <script src="assists/js/LandR/register.js"></script>
 </body>
 </html>
