@@ -1,144 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="shortcut icon" type="x-icon" href="assists/img/Hoppies logo.png">
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="assists/css/styles.css">
-  <title>Login | Hoppies</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form login</title>
+    <link rel="stylesheet" href="assists/css/login.css">
 </head>
-<body style="background-color: #333;">
-        <!-- Header Beginning -->
-      
-        <header>
-          <div class="navbar">
-            <div class="logo">
-              <div class="logo"><a href="https://enduryx.com"><img src="assists/img/Hoppies logo original transparent.png" width="200px"></a></div>
-              <ul class="link">
-                  <li class="list-hide"><a href="https://discord.gg/9vnn2nKfyE" target="_blank">Discord</a></li>
-                  <li class="list-hide"><a href="https://enduryx.com/about">About Us</a></li>
-                  <li class="list-hide"><a href="https://enduryx.com/logIn">Log In</a></li>
-              </ul>
-              <a href="https://enduryx.com/contact" class="action_btn">Contact Us</a>
-              <div class="toggle_btn">
-                  <i class="fa-solid fa-bars"></i>
-              </div>
-          </div>
 
-          <div class="dropdown_menu">
-            <li class="list-hide"><a href="https://discord.gg/9vnn2nKfyE" target="_blank">Discord</a></li>
-            <li class="list-hide"><a href="https://enduryx.com/about">About Us</a></li>
-            <li class="list-hide"><a href="https://enduryx.com/logIn">Log In</a></li>
-            <li class="list-hide"><a href="https://enduryx.com/contact" class="action_btn">Contact Us</a> </li>
-          </div>
-      </header>
-
-      <script>
-          const toggleBtn = document.querySelector('.toggle_btn')
-          const toggleBtnIcon = document.querySelector('.toggle_btn i')
-          const dropDownMenu = document.querySelector('.dropdown_menu')
-
-          toggleBtn.onclick = function () {
-              dropDownMenu.classList.toggle('open')
-              const isOpen = dropDownMenu.classList.contains('open')
-
-              toggleBtnIcon.classList = isOpen
-              ? 'fa-solid fa-xmark'
-              : 'fa-solid fa-bars'
-          }
-      </script>
-
-      <!-- Header Ending -->
-
-  <!-- LOGIN -->
-
-  <section>
-
-    <div class="form-box">
-      <div class="form-value">
-        <form action="">
-          <h2>Login</h2>
-          <div class="inputbox">
-            <ion-icon name="mail-outline"></ion-icon>
-            <input type="email" required>
-            <label for="">Email</label>
-          </div>
-          <div class="inputbox">
-            <ion-icon name="lock-closed-outline"></ion-icon>
-            <input type="password" required>
-            <label for="">Password</label>
-          </div>
-          <div class="forgot">
-            <label for=""><input type="checkbox">Remember Me <a href="#" style="margin-left: 70px;">Forgot Password</a></label>
-          </div>
-          <button>Log in</button>
-          <div class="register">
-            <p>Don't have an account <a href="#">Register</a></p>
-          </div>
-        </form>
-      </div>
-    </div>
-  </section>
-
-    <!--FOOTER-->
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="footer-col">
-            <h4>Hoppies</h4>
-            <ul>
-              <li class="list-hide"><a href="https://enduryx.com/about">About Us</a></li>
-              <li class="list-hide"><a href="https://enduryx.com/Services">Our Services</a></li>
-              <li class="list-hide"><a href="https://enduryx.com/PrivacyPolicy">Privacy Policy</a></li>
-              <li class="list-hide"><a href="https://enduryx.com/TermsOfServices">Terms Of Services</a></li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>Get Help</h4>
-            <ul>
-              <li class="list-hide"><a href="https://enduryx.com/info">Info</a></li>
-              <li class="list-hide"><a href="https://enduryx.com/FAQs">FAQs</a></li>
-              <li class="list-hide"><a href="https://enduryx.com/contact">Contact Us</a></li>
-              <li class="list-hide"><a href="https://enduryx.com/Socials">Our Socials</a></li>
-               <!-- <li class="list-hide"><a href="https://enduryx.com/ShippingPolicy">Shipping Policy</a></li>
-                <li class="list-hide"><a href="https://enduryx.com/ReturnPolicy">Return Policy</a></li>
-                <li class="list-hide"><a href="https://enduryx.com/Orders">Order Statues</a></li>
-                <li class="list-hide"><a href="https://enduryx.com/Payments">Payment Options</a></li> -->
-            </ul>
-          </div>
-          <!-- <div class="footer-col">
-            <h4>Online Shop</h4>
-            <ul>
-              <li class="list-hide"><a href="#">Watch</a></li>
-              <li class="list-hide"><a href="#">Bag</a></li>
-              <li class="list-hide"><a href="#">Shoes</a></li>
-              <li class="list-hide"><a href="#">Dress</a></li>
-            </ul>
-          </div> -->
-          <div class="footer-col">
-            <h4>Follow Us</h4>
-            <div class="social-links">
-              <a href="https://www.facebook.com/profile.php?id=100087815577791" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-              <a href="https://twitter.com/HoppiesStore" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-              <a href="https://www.youtube.com/@hoppiesstore" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-              <a href="https://www.instagram.com/hoppies.store_official/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-          </div>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <form action="#">
+                <div class="page-box">
+                    <div class="login-title">
+                        <h2>Login</h2>
+                        <p>Please login to use the platform</p>
+                    </div>
+                    <div class="page email-page">
+                        <div class="input-box">
+                            <input type="email" class="email" autofocus required>
+                            <label>Enter your email</label>
+                        </div>
+                        <div class="forgot">
+                            <a href="#">Forgot email?</a>
+                        </div>
+                    </div>
+                    <div class="guest-mode">
+                    </div>
+                    <div class="btn-box">
+                    </div>
+                </div>
+                <div class="page email-page">
+                    <div class="input-box">
+                        <input type="password" class="password" autofocus required>
+                        <label>Enter your password</label>
+                    </div>
+                    <div class="forgot">
+                        <a href="#">Forgot passowrd</a>
+                    </div>
+                </div>
+                <div class="guest-mode">
+                    <p>Not your computer? Use guest mode to login privately.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="btn-box button-container">
+                    <a href="#">Create account</a>
+                    <button class="btn-next">Next</button>
+                </div>
+            </form>
         </div>
-      </div>
-      <div class="copyright-text">
-        <span>
-          <div class="wb-powered"><pPowered class="copyright">&copy; <script>document.write(new Date().getFullYear())</script> Hoppies | All rights reserved.</div>
-        </span>
-      </div>
-    </footer>
-
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    </div>
+    <script src="assists/js/login.js"></script>
 </body>
 </html>
