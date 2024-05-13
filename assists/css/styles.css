@@ -525,6 +525,7 @@ button {
     margin-left: 200px;
     margin-right: 200px;
 }
+}
 
 @media (max-width: 1300px) {
   .terms-body .t-text {
