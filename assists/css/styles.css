@@ -105,7 +105,7 @@ header {
   top: 80px;
   height: 0;
   width: 300px;
-  background: var(--second-bg-color);
+  background: #010c80;
   overflow: hidden;
   transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
