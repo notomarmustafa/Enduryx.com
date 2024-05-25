@@ -90,7 +90,7 @@ header {
 
 .action_btn:hover {
   scale: 1.05;
-  color: #fff;
+  color: #fff;s
 }
 
 .action_btn:active {
@@ -105,7 +105,7 @@ header {
   top: 80px;
   height: 0;
   width: 300px;
-  background: #010c80;
+  background: #073946;
   overflow: hidden;
   transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
