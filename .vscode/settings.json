@@ -1,4 +1,15 @@
 {
     "livePreview.defaultPreviewPath": "/home.html",
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:hopppies.com - main}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    },
+    "cSpell.words": [
+        "Enduryx"
+    ]
 }
